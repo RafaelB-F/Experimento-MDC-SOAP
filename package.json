@@ -1,0 +1,20 @@
+{
+  "name": "soap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scritps": {
+    "server": "ts-node server.ts",
+    "client": "ts-node client.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "@types/soap": "^0.21.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "soap": "^1.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
